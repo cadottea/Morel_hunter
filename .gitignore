@@ -38,4 +38,5 @@ morel_images/
 temp_image.jpg
 
 # Ignore specific large files
-master_no_morel.zip
+master_morel
+master_no_morel
