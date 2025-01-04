@@ -29,6 +29,13 @@ test_labels/
 train_images/
 train_labels/
 
+# Ignore YOLO label and morel image directories
+yolo_labels/
+morel_images/
+
 # Ignore notebook output and temporary files
 *.ipynb_checkpoints
 temp_image.jpg
+
+# Ignore specific large files
+master_no_morel.zip
