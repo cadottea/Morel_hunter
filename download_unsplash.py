@@ -51,7 +51,7 @@ def download_unsplash_images(api_key, search_term, num_images):
     print(f"\nDownload complete. Total images downloaded: {total_downloaded}")  # Corrected line
 
 if __name__ == "__main__":
-    api_key = "YOUR_UNSPLASH_API_KEY"  # Your Unsplash API key
+    api_key "your API key here"  # Your Unsplash API key
     search_term = input("Enter the search term (e.g., morel mushroom): ")
     num_images = int(input("Enter the number of images to download: "))
     

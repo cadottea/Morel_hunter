@@ -65,7 +65,7 @@ def download_flickr_images(api_key, search_term, num_images):
     print(f"\nDownload complete. Total images downloaded: {total_downloaded}")
 
 if __name__ == "__main__":
-    api_key = "871da1fbb47d73d72f7e9bfd60de2cca"  # Your Flickr API key
+    api_key "your API key here"  # Your Flickr API key
     search_term = input("Enter the search term (e.g., 'Morchella'): ")
     num_images = int(input("Enter the number of images to download: "))
     

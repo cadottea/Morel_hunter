@@ -22,21 +22,23 @@ image_scraping_env/
 
 # Ignore specific directories and files
 backup_morel_images/
-darknet/
+backup2_morel_images/
 flickr_images/
-test_images/
-test_labels/
-train_images/
-train_labels/
-
-# Ignore YOLO label and morel image directories
-yolo_labels/
+1morel_saved/
 morel_images/
+new_flickr_morel/
+new_morel_images/
+no_morel_images/
+no_morel_images_small_file_size_from_download3_forest/
+no_morel_images_test_backup/
+
+# Ignore YOLO label directories
+yolo_labels/
 
 # Ignore notebook output and temporary files
 *.ipynb_checkpoints
 temp_image.jpg
 
-# Ignore specific large files
+# Ignore specific large files (if they exist)
 master_morel
 master_no_morel

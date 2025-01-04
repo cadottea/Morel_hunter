@@ -80,7 +80,7 @@ def download_images(api_key, search_term, num_images, size_ratio, exclude_terms,
     print(f"\nDownload complete. Total images downloaded: {total_downloaded}")
 
 if __name__ == "__main__":
-    api_key = "5eYp2vRO31NYQSsk5Hewd5RK80wD1Lr0gyB5B4aymSvxE4bvqlulxl5F"  # Your Pexels API key
+    api_key "your API key here"  # Your Pexels API key
     
     search_term = input("Enter the search term: ")
     num_images = int(input("Enter the number of images to download: "))
