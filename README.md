@@ -90,6 +90,16 @@ The project includes the following directories and files:
 
 Feel free to fork the project and submit pull requests. Contributions are welcome, especially for improving model accuracy or implementing the mobile app interface.
 
+### Security Note
+
+During the initial development of this project, a set of API keys was temporarily included in the repository. These keys were exposed for a short period but have since been removed and replaced with placeholders in the code. The following actions were taken to ensure the security of the project:
+
+1. The exposed keys were revoked and replaced with new keys.
+2. The Git history was scrubbed to remove all traces of the keys.
+3. Best practices, such as storing sensitive data in environment variables, are now being followed to prevent future exposure.
+
+If you are forking or using this project, please ensure you configure your own API keys securely!
+
 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
