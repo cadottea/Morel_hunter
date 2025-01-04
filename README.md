@@ -73,16 +73,18 @@ print("Predicted classes: ", result['classes'])
 
 This code uses OpenCV to load an image and a YOLO model to predict the class of objects in the image. The result will show whether a morel mushroom is detected.
 
-File Structure
+# File Structure
 
-/morel_images/
-    /train_images/
-    /train_labels/
-    /test_images/
-    /test_labels/
-/yolo_labels/
-    /train_labels/
-    /test_labels/
+The project includes the following directories and files:
+
+- `/morel_images/`: Contains images of morel mushrooms.
+- `/train_images/`: Directory containing training images.
+- `/train_labels/`: Directory containing training labels.
+- `/test_images/`: Directory containing test images.
+- `/test_labels/`: Directory containing test labels.
+- `/yolo_labels/`: Directory containing YOLO label files.
+- `/train_labels/`: Redundant directory for training labels.
+- `/test_labels/`: Redundant directory for test labels.
 
     Contributions
 
